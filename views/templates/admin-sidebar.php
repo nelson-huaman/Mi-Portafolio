@@ -52,7 +52,7 @@
       </li>
       <li class="menu__item">
          <a href="" class="menu__enlace">
-            <i class="menu__icono fa-solid fa-hat-cowboy"></i>
+            <i class="menu__icono fa-solid fa-file-invoice"></i>
             Documentación
          </a>
       </li>
