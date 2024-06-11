@@ -6,13 +6,11 @@
    padding-top: 3rem;
 
    &__item {
-      font-size: 1.6rem;
       margin-bottom: .5rem;
    }
 
    &__enlace {
       color: darken(v.$blanco, 25%);
-      font-size: 1.4rem;
       font-weight: v.$medium;
       white-space: nowrap;
       display: flex;
@@ -36,19 +34,19 @@
          content: "";
          width: .6rem;
          height: .6rem;
-         border-bottom: 1px solid v.$blanco;
-         border-right: 1px solid v.$blanco;
+         border-bottom: 2px solid v.$blanco;
+         border-right: 2px solid v.$blanco;
          rotate: -45grad;
          margin-right: .2rem;
       }
    }
 
-   &__submenu  {
+   &__submenu {
       @include m.lista;
       padding-left: 2rem;
       display: none;
    }
-
+   
    &__activo &__submenu {
       display: block;
    }

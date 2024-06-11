@@ -1,4 +1,4 @@
-
+import './fontawesome.js'
 
 // Admin
-import './fontawesome';
+import './menu-admin.js'

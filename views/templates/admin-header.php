@@ -10,13 +10,19 @@
             <ul class="usuario__menu">
                <li class="usuario__item">
                   <a href="/admin/dashboard" class="usuario__enlace">
-                     <i class="usuario__icono fa-solid fa-gear"></i>
+                     <i class="fa-solid fa-user"></i>
                      Perfil
                   </a>
                </li>
                <li class="usuario__item">
                   <a href="/admin/dashboard" class="usuario__enlace">
-                     <i class="usuario__icono fa-solid fa-right-to-bracket"></i>
+                     <i class="fa-solid fa-gear"></i>
+                     Configuración
+                  </a>
+               </li>
+               <li class="usuario__item">
+                  <a href="/admin/dashboard" class="usuario__enlace">
+                     <i class="fa-solid fa-right-from-bracket"></i>
                      Salir
                   </a>
                </li>
