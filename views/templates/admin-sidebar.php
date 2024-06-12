@@ -37,10 +37,16 @@
          </div>
          <ul class="menu__submenu">
             <li class="menu__item">
-               <a href="/admin/usuarios" class="menu__enlace">Usuarios</a>
+               <a href="/admin/usuarios" class="menu__enlace">
+                  <i class="fa-solid fa-caret-right"></i>
+                  Usuarios
+               </a>
             </li>
             <li class="menu__item">
-               <a href="/admin/usuarios/rol" class="menu__enlace">Roles</a>
+               <a href="/admin/usuarios/rol" class="menu__enlace">
+                  <i class="fa-solid fa-caret-right"></i>
+                  Roles
+               </a>
             </li>
          </ul>
       </li>
